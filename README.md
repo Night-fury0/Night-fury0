@@ -1,4 +1,15 @@
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Night-fury0&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark&count-private=true" alt="ovi" />
+<br><br>
+
+```mermaid
+pie showData
+title Languages Used (Bytes of Code)
+  "Python": 72398
+  "C++": 46853
+  "Kotlin": 41339
+  "HTML": 1333
+  "Java": 103
+  "Shell": 34
+```
 
 <br><br>
 
