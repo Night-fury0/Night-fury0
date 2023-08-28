@@ -1,14 +1,14 @@
 import requests
 import json
-#import os
+import os
 import matplotlib.pyplot as plt
 
-pat = ""
+#pat = ""
 
-with open("../gh_pat_for_content_readonly","r") as f:
-	pat = f.read().strip()
+#with open("../gh_pat_for_content_readonly","r") as f:
+#	pat = f.read().strip()
 
-# pat = os.environ["METADATA_PAT"]
+pat = os.environ["METADATA_PAT"]
 
 
 # Get list of all repos
