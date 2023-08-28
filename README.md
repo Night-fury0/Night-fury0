@@ -1,5 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=Welcome+to+Night-fury0's+Github+profile!)](https://git.io/typing-svg)
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Night-fury0&theme=solarized_dark"><br>
+<img src="https://github.com/Night-fury0/Night-fury0/blob/main/pie_chart.jpg"><br>
 <table>
   <tr>
     <td>Languages</td>
