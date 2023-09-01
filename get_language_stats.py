@@ -36,10 +36,10 @@ explode = [0] * len(labels)
 
 fig, ax = plt.subplots(figsize=(10,4))
 fig.set_facecolor(("grey"))
-widgets, texts, autotexts = ax.pie(sizes, labels=labels, explode=explode, autopct='%1.1f%%', startangle=90, labeldistance=1.1, pctdistance=0.8)
+widgets, texts, autotexts = ax.pie(sizes, labels=labels, explode=explode, autopct='%1.1f%%', startangle=90, labeldistance=1.06, pctdistance=0.8)
 plt.title("Languages Used in Repos",bbox={'facecolor':'0.8', 'pad':5})
 
-threshold = 3
+threshold = 10
 
 for label, pct_label in zip(texts, autotexts):
     pct_value = pct_label.get_text().rstrip('%')
