@@ -3,6 +3,8 @@ import json
 import os
 import matplotlib.pyplot as plt
 
+EXCLUDE_REPOS = ["dwm","arch-linux-setup"]
+
 #pat = ""
 
 #with open("../gh_pat_for_content_readonly","r") as f:
@@ -13,7 +15,7 @@ pat = os.environ["METADATA_PAT"]
 
 # Get list of all repos
 resp = json.loads(requests.get("https://api.github.com/user/repos",headers={"Authorization":f"Bearer {pat}"}).text)
-repos = [i.get("name") for i in resp]
+repos = [i.get("name") for i in resp if i.get("name") not in EXCLUDE_REPOS]
 
 result = dict()
 
