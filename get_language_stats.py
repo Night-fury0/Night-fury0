@@ -3,7 +3,7 @@ import json
 import os
 import matplotlib.pyplot as plt
 
-EXCLUDE_REPOS = ["dwm","arch-linux-setup","st","surf"]
+EXCLUDE_REPOS = ["dwm","st","surf"]
 
 #pat = ""
 
